@@ -1,0 +1,9 @@
+﻿  stdafx.cpp
+  TimingWheelLogic.cpp
+c:\users\dhava\source\repos\multischeduler\multischeduler\timingwheellogic.cpp(33): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\dhava\source\repos\multischeduler\multischeduler\timingwheellogic.cpp(157): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\dhava\source\repos\multischeduler\multischeduler\timingwheellogic.cpp(253): warning C4101: 'prtn': unreferenced local variable
+  driver.cpp
+  Generating Code...
+  MultiScheduler.vcxproj -> C:\Users\dhava\source\repos\MultiScheduler\Debug\MultiScheduler.exe
+  MultiScheduler.vcxproj -> C:\Users\dhava\source\repos\MultiScheduler\Debug\MultiScheduler.pdb (Partial PDB)

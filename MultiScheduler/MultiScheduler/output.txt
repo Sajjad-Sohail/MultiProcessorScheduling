@@ -1,0 +1,932 @@
+-----Initial Pool of PCB's Created-----
+Priority: 1
+SJF: 6
+FCFS: 2
+
+Input Simulation Time: At Clock 20
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 2/Pr		Type: 3/Pr		Type: 5/SJF		Type: 2/SJF		
+WD/BT: 1/1		WD/BT: 1/2		WD/BT: 1/5		WD/BT: 1/6		
+
+-----Queue Status-----
+Priority: 1		SJF: 4		FCFS: 2
+
+At Clock 21
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 51/Pr(S)		Type: 3/Pr		Type: 5/SJF		Type: 2/SJF		
+WD/BT: 1/7		WD/BT: 2/2		WD/BT: 2/5		WD/BT: 2/6		
+
+-----Queue Status-----
+Priority: 1		SJF: 4		FCFS: 2
+
+At Clock 22
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 51/Pr(S)		Type: 52/Pr		Type: 5/SJF		Type: 2/SJF		
+WD/BT: 2/7		WD/BT: 1/2		WD/BT: 3/5		WD/BT: 3/6		
+
+-----Queue Status-----
+Priority: 1		SJF: 4		FCFS: 2
+
+At Clock 23
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 51/Pr(S)		Type: 52/Pr		Type: 5/SJF		Type: 2/SJF		
+WD/BT: 3/7		WD/BT: 2/2		WD/BT: 4/5		WD/BT: 4/6		
+
+-----Queue Status-----
+Priority: 2		SJF: 4		FCFS: 2
+
+At Clock 24
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 51/Pr(S)		Type: 53/Pr		Type: 5/SJF		Type: 2/SJF		
+WD/BT: 4/7		WD/BT: 1/2		WD/BT: 5/5		WD/BT: 5/6		
+
+-----Queue Status-----
+Priority: 2		SJF: 4		FCFS: 2
+
+At Clock 25
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 51/Pr(S)		Type: 53/Pr		Type: 54/Pr		Type: 2/SJF		
+WD/BT: 5/7		WD/BT: 2/2		WD/BT: 1/2		WD/BT: 6/6		
+
+-----Queue Status-----
+Priority: 2		SJF: 4		FCFS: 2
+
+At Clock 26
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 51/Pr(S)		Type: 55/Pr		Type: 54/Pr		Type: 56/Pr		
+WD/BT: 6/7		WD/BT: 1/2		WD/BT: 2/2		WD/BT: 1/2		
+
+-----Queue Status-----
+Priority: 1		SJF: 5		FCFS: 2
+
+At Clock 27
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 51/Pr(S)		Type: 55/Pr		Type: 57/Pr		Type: 56/Pr		
+WD/BT: 7/7		WD/BT: 2/2		WD/BT: 1/2		WD/BT: 2/2		
+
+-----Queue Status-----
+Priority: 1		SJF: 5		FCFS: 2
+
+At Clock 28
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 58/Pr		Type: 59/Pr		Type: 57/Pr		Type: 101/SJF(R)(S)		
+WD/BT: 1/2		WD/BT: 1/2		WD/BT: 2/2		WD/BT: 1/4		
+
+-----Queue Status-----
+Priority: 0		SJF: 5		FCFS: 2
+
+At Clock 29
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 58/Pr		Type: 59/Pr		Type: 0/Pr		Type: 101/SJF(R)(S)		
+WD/BT: 2/2		WD/BT: 2/2		WD/BT: 1/2		WD/BT: 2/4		
+
+-----Queue Status-----
+Priority: 1		SJF: 5		FCFS: 2
+
+At Clock 30
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 53/Pr(R)(S)		Type: 54/Pr		Type: 0/Pr		Type: 101/SJF(R)(S)		
+WD/BT: 1/7		WD/BT: 1/2		WD/BT: 2/2		WD/BT: 3/4		
+
+-----Queue Status-----
+Priority: 1		SJF: 5		FCFS: 2
+
+At Clock 31
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 53/Pr(R)(S)		Type: 54/Pr		Type: 55/Pr(R)		Type: 101/SJF(R)(S)		
+WD/BT: 2/7		WD/BT: 2/2		WD/BT: 1/7		WD/BT: 4/4		
+
+-----Queue Status-----
+Priority: 2		SJF: 5		FCFS: 2
+
+At Clock 32
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 53/Pr(R)(S)		Type: 56/Pr		Type: 55/Pr(R)		Type: 57/Pr(R)		
+WD/BT: 3/7		WD/BT: 1/2		WD/BT: 2/7		WD/BT: 1/7		
+
+-----Queue Status-----
+Priority: 2		SJF: 5		FCFS: 2
+
+At Clock 33
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 53/Pr(R)(S)		Type: 56/Pr		Type: 55/Pr(R)		Type: 57/Pr(R)		
+WD/BT: 4/7		WD/BT: 2/2		WD/BT: 3/7		WD/BT: 2/7		
+
+-----Queue Status-----
+Priority: 3		SJF: 5		FCFS: 2
+
+At Clock 34
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 53/Pr(R)(S)		Type: 58/Pr		Type: 55/Pr(R)		Type: 57/Pr(R)		
+WD/BT: 5/7		WD/BT: 1/2		WD/BT: 4/7		WD/BT: 3/7		
+
+-----Queue Status-----
+Priority: 3		SJF: 6		FCFS: 2
+
+At Clock 35
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 53/Pr(R)(S)		Type: 58/Pr		Type: 55/Pr(R)		Type: 57/Pr(R)		
+WD/BT: 6/7		WD/BT: 2/2		WD/BT: 5/7		WD/BT: 4/7		
+
+-----Queue Status-----
+Priority: 4		SJF: 6		FCFS: 2
+
+At Clock 36
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 53/Pr(R)(S)		Type: 59/Pr(R)		Type: 55/Pr(R)		Type: 57/Pr(R)		
+WD/BT: 7/7		WD/BT: 1/7		WD/BT: 6/7		WD/BT: 5/7		
+
+-----Queue Status-----
+Priority: 5		SJF: 6		FCFS: 2
+
+At Clock 37
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 60/Pr		Type: 59/Pr(R)		Type: 55/Pr(R)		Type: 57/Pr(R)		
+WD/BT: 1/2		WD/BT: 2/7		WD/BT: 7/7		WD/BT: 6/7		
+
+-----Queue Status-----
+Priority: 5		SJF: 6		FCFS: 2
+
+At Clock 38
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 60/Pr		Type: 59/Pr(R)		Type: 61/Pr		Type: 57/Pr(R)		
+WD/BT: 2/2		WD/BT: 3/7		WD/BT: 1/2		WD/BT: 7/7		
+
+-----Queue Status-----
+Priority: 5		SJF: 6		FCFS: 2
+
+At Clock 39
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 62/Pr		Type: 59/Pr(R)		Type: 61/Pr		Type: 63/Pr		
+WD/BT: 1/2		WD/BT: 4/7		WD/BT: 2/2		WD/BT: 1/2		
+
+-----Queue Status-----
+Priority: 4		SJF: 7		FCFS: 2
+
+At Clock 40
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 62/Pr		Type: 59/Pr(R)		Type: 64/Pr(R)		Type: 63/Pr		
+WD/BT: 2/2		WD/BT: 5/7		WD/BT: 1/7		WD/BT: 2/2		
+
+-----Queue Status-----
+Priority: 5		SJF: 7		FCFS: 2
+
+At Clock 41
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 53/Pr(R)(S)		Type: 54/Pr		Type: 64/Pr(R)		Type: 101/SJF(R)(S)		
+WD/BT: 1/7		WD/BT: 1/2		WD/BT: 2/7		WD/BT: 3/4		
+
+-----Queue Status-----
+Priority: 7		SJF: 7		FCFS: 2
+
+At Clock 42
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 55/Pr(R)(S)		Type: 59/Pr(R)		Type: 64/Pr(R)		Type: 65/Pr		
+WD/BT: 1/4		WD/BT: 7/7		WD/BT: 3/7		WD/BT: 1/2		
+
+-----Queue Status-----
+Priority: 7		SJF: 7		FCFS: 2
+
+At Clock 43
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 55/Pr(R)(S)		Type: 66/Pr		Type: 64/Pr(R)		Type: 65/Pr		
+WD/BT: 2/4		WD/BT: 1/2		WD/BT: 4/7		WD/BT: 2/2		
+
+-----Queue Status-----
+Priority: 7		SJF: 7		FCFS: 2
+
+At Clock 44
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 55/Pr(R)(S)		Type: 66/Pr		Type: 64/Pr(R)		Type: 67/Pr		
+WD/BT: 3/4		WD/BT: 2/2		WD/BT: 5/7		WD/BT: 1/2		
+
+-----Queue Status-----
+Priority: 7		SJF: 7		FCFS: 2
+
+At Clock 45
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 55/Pr(R)(S)		Type: 68/Pr		Type: 64/Pr(R)		Type: 67/Pr		
+WD/BT: 4/4		WD/BT: 1/2		WD/BT: 6/7		WD/BT: 2/2		
+
+-----Queue Status-----
+Priority: 7		SJF: 7		FCFS: 2
+
+At Clock 46
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 69/Pr(R)		Type: 68/Pr		Type: 64/Pr(R)		Type: 69/Pr(R)		
+WD/BT: 1/7		WD/BT: 2/2		WD/BT: 7/7		WD/BT: 1/7		
+
+-----Queue Status-----
+Priority: 9		SJF: 7		FCFS: 2
+
+At Clock 47
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 69/Pr(R)		Type: 103/Pr(R)(S)		Type: 69/Pr(R)		Type: 69/Pr(R)		
+WD/BT: 2/7		WD/BT: 1/7		WD/BT: 1/7		WD/BT: 2/7		
+
+-----Queue Status-----
+Priority: 10		SJF: 7		FCFS: 2
+
+At Clock 48
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 69/Pr(R)		Type: 103/Pr(R)(S)		Type: 69/Pr(R)		Type: 69/Pr(R)		
+WD/BT: 3/7		WD/BT: 2/7		WD/BT: 2/7		WD/BT: 3/7		
+
+-----Queue Status-----
+Priority: 11		SJF: 8		FCFS: 2
+
+At Clock 49
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 69/Pr(R)		Type: 103/Pr(R)(S)		Type: 69/Pr(R)		Type: 69/Pr(R)		
+WD/BT: 4/7		WD/BT: 3/7		WD/BT: 3/7		WD/BT: 4/7		
+
+-----Queue Status-----
+Priority: 12		SJF: 8		FCFS: 2
+
+At Clock 50
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 69/Pr(R)		Type: 103/Pr(R)(S)		Type: 69/Pr(R)		Type: 69/Pr(R)		
+WD/BT: 5/7		WD/BT: 4/7		WD/BT: 4/7		WD/BT: 5/7		
+
+-----Queue Status-----
+Priority: 13		SJF: 8		FCFS: 2
+
+At Clock 51
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 69/Pr(R)		Type: 103/Pr(R)(S)		Type: 69/Pr(R)		Type: 69/Pr(R)		
+WD/BT: 6/7		WD/BT: 5/7		WD/BT: 5/7		WD/BT: 6/7		
+
+-----Queue Status-----
+Priority: 14		SJF: 8		FCFS: 2
+
+At Clock 52
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 53/Pr(R)(S)		Type: 54/Pr		Type: 64/Pr(R)		Type: 101/SJF(R)(S)		
+WD/BT: 1/7		WD/BT: 1/2		WD/BT: 2/7		WD/BT: 3/4		
+
+-----Queue Status-----
+Priority: 15		SJF: 9		FCFS: 2
+
+At Clock 53
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 70/Pr		Type: 103/Pr(R)(S)		Type: 69/Pr(R)		Type: 71/Pr		
+WD/BT: 1/2		WD/BT: 7/7		WD/BT: 7/7		WD/BT: 1/2		
+
+-----Queue Status-----
+Priority: 14		SJF: 9		FCFS: 2
+
+At Clock 54
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 70/Pr		Type: 72/Pr(R)		Type: 73/Pr		Type: 71/Pr		
+WD/BT: 2/2		WD/BT: 1/4		WD/BT: 1/2		WD/BT: 2/2		
+
+-----Queue Status-----
+Priority: 15		SJF: 9		FCFS: 2
+
+At Clock 55
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 105/Pr(R)(S)		Type: 72/Pr(R)		Type: 73/Pr		Type: 74/Pr		
+WD/BT: 1/4		WD/BT: 2/4		WD/BT: 2/2		WD/BT: 1/2		
+
+-----Queue Status-----
+Priority: 15		SJF: 9		FCFS: 2
+
+At Clock 56
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 105/Pr(R)(S)		Type: 72/Pr(R)		Type: 75/Pr		Type: 74/Pr		
+WD/BT: 2/4		WD/BT: 3/4		WD/BT: 1/2		WD/BT: 2/2		
+
+-----Queue Status-----
+Priority: 15		SJF: 9		FCFS: 2
+
+At Clock 57
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 105/Pr(R)(S)		Type: 72/Pr(R)		Type: 75/Pr		Type: 76/Pr		
+WD/BT: 3/4		WD/BT: 4/4		WD/BT: 2/2		WD/BT: 1/2		
+
+-----Queue Status-----
+Priority: 15		SJF: 9		FCFS: 2
+
+At Clock 58
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 105/Pr(R)(S)		Type: 77/Pr		Type: 78/Pr(R)		Type: 76/Pr		
+WD/BT: 4/4		WD/BT: 1/2		WD/BT: 1/7		WD/BT: 2/2		
+
+-----Queue Status-----
+Priority: 15		SJF: 9		FCFS: 2
+
+At Clock 59
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 79/Pr(R)		Type: 77/Pr		Type: 78/Pr(R)		Type: 80/Pr		
+WD/BT: 1/7		WD/BT: 2/2		WD/BT: 2/7		WD/BT: 1/2		
+
+-----Queue Status-----
+Priority: 15		SJF: 9		FCFS: 2
+
+At Clock 60
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 79/Pr(R)		Type: 81/Pr		Type: 78/Pr(R)		Type: 80/Pr		
+WD/BT: 2/7		WD/BT: 1/2		WD/BT: 3/7		WD/BT: 2/2		
+
+-----Queue Status-----
+Priority: 15		SJF: 9		FCFS: 2
+
+At Clock 61
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 79/Pr(R)		Type: 81/Pr		Type: 78/Pr(R)		Type: 82/Pr		
+WD/BT: 3/7		WD/BT: 2/2		WD/BT: 4/7		WD/BT: 1/2		
+
+-----Queue Status-----
+Priority: 15		SJF: 9		FCFS: 2
+
+At Clock 62
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 79/Pr(R)		Type: 83/Pr		Type: 78/Pr(R)		Type: 82/Pr		
+WD/BT: 4/7		WD/BT: 1/2		WD/BT: 5/7		WD/BT: 2/2		
+
+-----Queue Status-----
+Priority: 17		SJF: 10		FCFS: 2
+
+At Clock 63
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 53/Pr(R)(S)		Type: 54/Pr		Type: 64/Pr(R)		Type: 101/SJF(R)(S)		
+WD/BT: 1/7		WD/BT: 1/2		WD/BT: 2/7		WD/BT: 3/4		
+
+-----Queue Status-----
+Priority: 18		SJF: 10		FCFS: 2
+
+At Clock 64
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 79/Pr(R)		Type: 153/Pr(R)(S)		Type: 78/Pr(R)		Type: 83/Pr		
+WD/BT: 6/7		WD/BT: 1/7		WD/BT: 7/7		WD/BT: 1/2		
+
+-----Queue Status-----
+Priority: 18		SJF: 10		FCFS: 2
+
+At Clock 65
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 79/Pr(R)		Type: 153/Pr(R)(S)		Type: 84/Pr		Type: 83/Pr		
+WD/BT: 7/7		WD/BT: 2/7		WD/BT: 1/2		WD/BT: 2/2		
+
+-----Queue Status-----
+Priority: 18		SJF: 11		FCFS: 2
+
+At Clock 66
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 85/Pr		Type: 153/Pr(R)(S)		Type: 84/Pr		Type: 86/Pr		
+WD/BT: 1/2		WD/BT: 3/7		WD/BT: 2/2		WD/BT: 1/2		
+
+-----Queue Status-----
+Priority: 18		SJF: 11		FCFS: 2
+
+At Clock 67
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 85/Pr		Type: 153/Pr(R)(S)		Type: 155/Pr(R)(S)		Type: 86/Pr		
+WD/BT: 2/2		WD/BT: 4/7		WD/BT: 1/4		WD/BT: 2/2		
+
+-----Queue Status-----
+Priority: 19		SJF: 11		FCFS: 2
+
+At Clock 68
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 87/Pr(R)		Type: 153/Pr(R)(S)		Type: 155/Pr(R)(S)		Type: 88/Pr		
+WD/BT: 1/4		WD/BT: 5/7		WD/BT: 2/4		WD/BT: 1/2		
+
+-----Queue Status-----
+Priority: 19		SJF: 11		FCFS: 2
+
+At Clock 69
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 87/Pr(R)		Type: 153/Pr(R)(S)		Type: 155/Pr(R)(S)		Type: 88/Pr		
+WD/BT: 2/4		WD/BT: 6/7		WD/BT: 3/4		WD/BT: 2/2		
+
+-----Queue Status-----
+Priority: 20		SJF: 11		FCFS: 2
+
+At Clock 70
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 87/Pr(R)		Type: 153/Pr(R)(S)		Type: 155/Pr(R)(S)		Type: 89/Pr(R)		
+WD/BT: 3/4		WD/BT: 7/7		WD/BT: 4/4		WD/BT: 1/4		
+
+-----Queue Status-----
+Priority: 21		SJF: 11		FCFS: 2
+
+At Clock 71
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 87/Pr(R)		Type: 90/Pr		Type: 91/Pr		Type: 89/Pr(R)		
+WD/BT: 4/4		WD/BT: 1/2		WD/BT: 1/2		WD/BT: 2/4		
+
+-----Queue Status-----
+Priority: 20		SJF: 11		FCFS: 2
+
+At Clock 72
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 92/Pr		Type: 90/Pr		Type: 91/Pr		Type: 89/Pr(R)		
+WD/BT: 1/2		WD/BT: 2/2		WD/BT: 2/2		WD/BT: 3/4		
+
+-----Queue Status-----
+Priority: 20		SJF: 11		FCFS: 2
+
+At Clock 73
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 92/Pr		Type: 93/Pr(R)		Type: 94/Pr		Type: 89/Pr(R)		
+WD/BT: 2/2		WD/BT: 1/7		WD/BT: 1/2		WD/BT: 4/4		
+
+-----Queue Status-----
+Priority: 21		SJF: 11		FCFS: 2
+
+At Clock 74
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 53/Pr(R)(S)		Type: 54/Pr		Type: 64/Pr(R)		Type: 101/SJF(R)(S)		
+WD/BT: 1/7		WD/BT: 1/2		WD/BT: 2/7		WD/BT: 3/4		
+
+-----Queue Status-----
+Priority: 22		SJF: 11		FCFS: 2
+
+At Clock 75
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 94/Pr		Type: 93/Pr(R)		Type: 95/Pr(R)		Type: 96/Pr		
+WD/BT: 1/2		WD/BT: 3/7		WD/BT: 1/7		WD/BT: 1/1		
+
+-----Queue Status-----
+Priority: 21		SJF: 11		FCFS: 2
+
+At Clock 76
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 94/Pr		Type: 93/Pr(R)		Type: 95/Pr(R)		Type: 97/Pr		
+WD/BT: 2/2		WD/BT: 4/7		WD/BT: 2/7		WD/BT: 1/1		
+
+-----Queue Status-----
+Priority: 21		SJF: 11		FCFS: 2
+
+At Clock 77
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 98/Pr		Type: 93/Pr(R)		Type: 95/Pr(R)		Type: 99/Pr		
+WD/BT: 1/1		WD/BT: 5/7		WD/BT: 3/7		WD/BT: 1/1		
+
+-----Queue Status-----
+Priority: 20		SJF: 11		FCFS: 2
+
+At Clock 78
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 100/Pr		Type: 93/Pr(R)		Type: 95/Pr(R)		Type: 101/Pr(R)		
+WD/BT: 1/1		WD/BT: 6/7		WD/BT: 4/7		WD/BT: 1/7		
+
+-----Queue Status-----
+Priority: 20		SJF: 12		FCFS: 2
+
+At Clock 79
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 102/Pr		Type: 93/Pr(R)		Type: 95/Pr(R)		Type: 101/Pr(R)		
+WD/BT: 1/1		WD/BT: 7/7		WD/BT: 5/7		WD/BT: 2/7		
+
+-----Queue Status-----
+Priority: 20		SJF: 12		FCFS: 2
+
+At Clock 80
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 103/Pr		Type: 104/Pr		Type: 95/Pr(R)		Type: 101/Pr(R)		
+WD/BT: 1/1		WD/BT: 1/1		WD/BT: 6/7		WD/BT: 3/7		
+
+-----Queue Status-----
+Priority: 19		SJF: 12		FCFS: 2
+
+At Clock 81
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 105/Pr(R)		Type: 106/Pr		Type: 95/Pr(R)		Type: 101/Pr(R)		
+WD/BT: 1/4		WD/BT: 1/1		WD/BT: 7/7		WD/BT: 4/7		
+
+-----Queue Status-----
+Priority: 19		SJF: 12		FCFS: 2
+
+At Clock 82
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 105/Pr(R)		Type: 107/Pr(R)		Type: 107/Pr(R)		Type: 101/Pr(R)		
+WD/BT: 2/4		WD/BT: 1/4		WD/BT: 1/4		WD/BT: 5/7		
+
+-----Queue Status-----
+Priority: 20		SJF: 12		FCFS: 2
+
+At Clock 83
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 105/Pr(R)		Type: 107/Pr(R)		Type: 107/Pr(R)		Type: 101/Pr(R)		
+WD/BT: 3/4		WD/BT: 2/4		WD/BT: 2/4		WD/BT: 6/7		
+
+-----Queue Status-----
+Priority: 21		SJF: 12		FCFS: 2
+
+At Clock 84
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 105/Pr(R)		Type: 107/Pr(R)		Type: 107/Pr(R)		Type: 101/Pr(R)		
+WD/BT: 4/4		WD/BT: 3/4		WD/BT: 3/4		WD/BT: 7/7		
+
+-----Queue Status-----
+Priority: 22		SJF: 12		FCFS: 2
+
+At Clock 85
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 53/Pr(R)(S)		Type: 54/Pr		Type: 64/Pr(R)		Type: 101/SJF(R)(S)		
+WD/BT: 1/7		WD/BT: 1/2		WD/BT: 2/7		WD/BT: 3/4		
+
+-----Queue Status-----
+Priority: 23		SJF: 12		FCFS: 2
+
+At Clock 86
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 107/Pr(R)		Type: 108/Pr		Type: 109/Pr		Type: 110/Pr(R)		
+WD/BT: 1/4		WD/BT: 1/1		WD/BT: 1/1		WD/BT: 1/4		
+
+-----Queue Status-----
+Priority: 22		SJF: 12		FCFS: 2
+
+At Clock 87
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 107/Pr(R)		Type: 111/Pr		Type: 112/Pr		Type: 110/Pr(R)		
+WD/BT: 2/4		WD/BT: 1/1		WD/BT: 1/1		WD/BT: 2/4		
+
+-----Queue Status-----
+Priority: 21		SJF: 12		FCFS: 2
+
+At Clock 88
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 107/Pr(R)		Type: 113/Pr		Type: 114/Pr(R)		Type: 110/Pr(R)		
+WD/BT: 3/4		WD/BT: 1/1		WD/BT: 1/7		WD/BT: 3/4		
+
+-----Queue Status-----
+Priority: 22		SJF: 13		FCFS: 2
+
+At Clock 89
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 107/Pr(R)		Type: 203/Pr(R)(S)		Type: 114/Pr(R)		Type: 110/Pr(R)		
+WD/BT: 4/4		WD/BT: 1/7		WD/BT: 2/7		WD/BT: 4/4		
+
+-----Queue Status-----
+Priority: 24		SJF: 13		FCFS: 2
+
+At Clock 90
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 205/Pr(R)(S)		Type: 203/Pr(R)(S)		Type: 114/Pr(R)		Type: 115/Pr		
+WD/BT: 1/4		WD/BT: 2/7		WD/BT: 3/7		WD/BT: 1/1		
+
+-----Queue Status-----
+Priority: 24		SJF: 13		FCFS: 2
+
+At Clock 91
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 205/Pr(R)(S)		Type: 203/Pr(R)(S)		Type: 114/Pr(R)		Type: 116/Pr		
+WD/BT: 2/4		WD/BT: 3/7		WD/BT: 4/7		WD/BT: 1/1		
+
+-----Queue Status-----
+Priority: 24		SJF: 13		FCFS: 2
+
+At Clock 92
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 205/Pr(R)(S)		Type: 203/Pr(R)(S)		Type: 114/Pr(R)		Type: 117/Pr(R)		
+WD/BT: 3/4		WD/BT: 4/7		WD/BT: 5/7		WD/BT: 1/7		
+
+-----Queue Status-----
+Priority: 25		SJF: 13		FCFS: 2
+
+At Clock 93
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 205/Pr(R)(S)		Type: 203/Pr(R)(S)		Type: 114/Pr(R)		Type: 117/Pr(R)		
+WD/BT: 4/4		WD/BT: 5/7		WD/BT: 6/7		WD/BT: 2/7		
+
+-----Queue Status-----
+Priority: 26		SJF: 13		FCFS: 2
+
+At Clock 94
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 118/Pr		Type: 203/Pr(R)(S)		Type: 114/Pr(R)		Type: 117/Pr(R)		
+WD/BT: 1/1		WD/BT: 6/7		WD/BT: 7/7		WD/BT: 3/7		
+
+-----Queue Status-----
+Priority: 26		SJF: 14		FCFS: 2
+
+At Clock 95
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 119/Pr		Type: 203/Pr(R)(S)		Type: 120/Pr		Type: 117/Pr(R)		
+WD/BT: 1/1		WD/BT: 7/7		WD/BT: 1/1		WD/BT: 4/7		
+
+-----Queue Status-----
+Priority: 25		SJF: 14		FCFS: 2
+
+At Clock 96
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 53/Pr(R)(S)		Type: 54/Pr		Type: 64/Pr(R)		Type: 101/SJF(R)(S)		
+WD/BT: 1/7		WD/BT: 1/2		WD/BT: 2/7		WD/BT: 3/4		
+
+-----Queue Status-----
+Priority: 26		SJF: 14		FCFS: 2
+
+At Clock 97
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 121/Pr(R)		Type: 122/Pr		Type: 123/Pr		Type: 117/Pr(R)		
+WD/BT: 1/7		WD/BT: 1/1		WD/BT: 1/1		WD/BT: 6/7		
+
+-----Queue Status-----
+Priority: 25		SJF: 14		FCFS: 2
+
+At Clock 98
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 121/Pr(R)		Type: 124/Pr		Type: 125/Pr(R)		Type: 117/Pr(R)		
+WD/BT: 2/7		WD/BT: 1/1		WD/BT: 1/4		WD/BT: 7/7		
+
+-----Queue Status-----
+Priority: 25		SJF: 15		FCFS: 2
+
+At Clock 99
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 121/Pr(R)		Type: 126/Pr		Type: 125/Pr(R)		Type: 127/Pr		
+WD/BT: 3/7		WD/BT: 1/1		WD/BT: 2/4		WD/BT: 1/1		
+
+-----Queue Status-----
+Priority: 24		SJF: 15		FCFS: 2
+
+At Clock 100
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 121/Pr(R)		Type: 128/Pr		Type: 125/Pr(R)		Type: 129/Pr		
+WD/BT: 4/7		WD/BT: 1/1		WD/BT: 3/4		WD/BT: 1/1		
+
+-----Queue Status-----
+Priority: 23		SJF: 15		FCFS: 2
+
+At Clock 101
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 121/Pr(R)		Type: 130/Pr		Type: 125/Pr(R)		Type: 131/Pr(R)		
+WD/BT: 5/7		WD/BT: 1/1		WD/BT: 4/4		WD/BT: 1/4		
+
+-----Queue Status-----
+Priority: 23		SJF: 15		FCFS: 2
+
+At Clock 102
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 121/Pr(R)		Type: 132/Pr(R)		Type: 133/Pr		Type: 131/Pr(R)		
+WD/BT: 6/7		WD/BT: 1/4		WD/BT: 1/1		WD/BT: 2/4		
+
+-----Queue Status-----
+Priority: 23		SJF: 15		FCFS: 2
+
+At Clock 103
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 121/Pr(R)		Type: 132/Pr(R)		Type: 134/Pr		Type: 131/Pr(R)		
+WD/BT: 7/7		WD/BT: 2/4		WD/BT: 1/1		WD/BT: 3/4		
+
+-----Queue Status-----
+Priority: 23		SJF: 15		FCFS: 2
+
+At Clock 104
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 135/Pr(R)		Type: 132/Pr(R)		Type: 136/Pr		Type: 131/Pr(R)		
+WD/BT: 1/7		WD/BT: 3/4		WD/BT: 1/1		WD/BT: 4/4		
+
+-----Queue Status-----
+Priority: 24		SJF: 15		FCFS: 2
+
+At Clock 105
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 135/Pr(R)		Type: 132/Pr(R)		Type: 255/Pr(R)(S)		Type: 137/Pr(R)		
+WD/BT: 2/7		WD/BT: 4/4		WD/BT: 1/4		WD/BT: 1/7		
+
+-----Queue Status-----
+Priority: 25		SJF: 15		FCFS: 2
+
+At Clock 106
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 135/Pr(R)		Type: 138/Pr		Type: 255/Pr(R)(S)		Type: 137/Pr(R)		
+WD/BT: 3/7		WD/BT: 1/1		WD/BT: 2/4		WD/BT: 2/7		
+
+-----Queue Status-----
+Priority: 25		SJF: 15		FCFS: 2
+
+At Clock 107
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 53/Pr(R)(S)		Type: 54/Pr		Type: 64/Pr(R)		Type: 101/SJF(R)(S)		
+WD/BT: 1/7		WD/BT: 1/2		WD/BT: 2/7		WD/BT: 3/4		
+
+-----Queue Status-----
+Priority: 27		SJF: 15		FCFS: 2
+
+At Clock 108
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 135/Pr(R)		Type: 253/Pr(R)(S)		Type: 255/Pr(R)(S)		Type: 137/Pr(R)		
+WD/BT: 5/7		WD/BT: 1/7		WD/BT: 4/4		WD/BT: 4/7		
+
+-----Queue Status-----
+Priority: 28		SJF: 15		FCFS: 2
+
+At Clock 109
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 135/Pr(R)		Type: 253/Pr(R)(S)		Type: 139/Pr(R)		Type: 137/Pr(R)		
+WD/BT: 6/7		WD/BT: 2/7		WD/BT: 1/4		WD/BT: 5/7		
+
+-----Queue Status-----
+Priority: 29		SJF: 15		FCFS: 2
+
+At Clock 110
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 135/Pr(R)		Type: 253/Pr(R)(S)		Type: 139/Pr(R)		Type: 137/Pr(R)		
+WD/BT: 7/7		WD/BT: 3/7		WD/BT: 2/4		WD/BT: 6/7		
+
+-----Queue Status-----
+Priority: 30		SJF: 15		FCFS: 2
+
+At Clock 111
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 140/Pr		Type: 253/Pr(R)(S)		Type: 139/Pr(R)		Type: 137/Pr(R)		
+WD/BT: 1/1		WD/BT: 4/7		WD/BT: 3/4		WD/BT: 7/7		
+
+-----Queue Status-----
+Priority: 30		SJF: 15		FCFS: 2
+
+At Clock 112
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 141/Pr		Type: 253/Pr(R)(S)		Type: 139/Pr(R)		Type: 142/Pr(R)		
+WD/BT: 1/1		WD/BT: 5/7		WD/BT: 4/4		WD/BT: 1/7		
+
+-----Queue Status-----
+Priority: 30		SJF: 15		FCFS: 2
+
+At Clock 113
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 142/Pr(R)		Type: 253/Pr(R)(S)		Type: 143/Pr		Type: 142/Pr(R)		
+WD/BT: 1/7		WD/BT: 6/7		WD/BT: 1/1		WD/BT: 2/7		
+
+-----Queue Status-----
+Priority: 30		SJF: 16		FCFS: 2
+
+At Clock 114
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 142/Pr(R)		Type: 253/Pr(R)(S)		Type: 144/Pr		Type: 142/Pr(R)		
+WD/BT: 2/7		WD/BT: 7/7		WD/BT: 1/1		WD/BT: 3/7		
+
+-----Queue Status-----
+Priority: 30		SJF: 16		FCFS: 2
+
+At Clock 115
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 142/Pr(R)		Type: 145/Pr		Type: 146/Pr		Type: 142/Pr(R)		
+WD/BT: 3/7		WD/BT: 1/1		WD/BT: 1/1		WD/BT: 4/7		
+
+-----Queue Status-----
+Priority: 29		SJF: 16		FCFS: 2
+
+At Clock 116
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 142/Pr(R)		Type: 147/Pr		Type: 148/Pr(R)		Type: 142/Pr(R)		
+WD/BT: 4/7		WD/BT: 1/1		WD/BT: 1/7		WD/BT: 5/7		
+
+-----Queue Status-----
+Priority: 29		SJF: 16		FCFS: 2
+
+At Clock 117
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 142/Pr(R)		Type: 149/Pr		Type: 148/Pr(R)		Type: 142/Pr(R)		
+WD/BT: 5/7		WD/BT: 1/1		WD/BT: 2/7		WD/BT: 6/7		
+
+-----Queue Status-----
+Priority: 29		SJF: 16		FCFS: 2
+
+At Clock 118
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 53/Pr(R)(S)		Type: 54/Pr		Type: 64/Pr(R)		Type: 101/SJF(R)(S)		
+WD/BT: 1/7		WD/BT: 1/2		WD/BT: 2/7		WD/BT: 3/4		
+
+-----Queue Status-----
+Priority: 30		SJF: 17		FCFS: 2
+
+At Clock 119
+CPU : 1			CPU : 2			CPU : 3			CPU : 4
+Type: 142/Pr(R)		Type: 150/Pr(R)		Type: 148/Pr(R)		Type: 151/Pr		
+WD/BT: 7/7		WD/BT: 1/4		WD/BT: 4/7		WD/BT: 1/1		
+
+-----Queue Status-----
+Priority: 31		SJF: 17		FCFS: 2
+
+
+
+
+Summary
+
+ID			Arrival	Burst	Completion	Turnaround	Waiting 
+2/Pr			0	1	20		20		21
+3/Pr			0	2	21		20		22
+5/SJF			19	5	24		1		6
+2/SJF			8	6	25		12		18
+51/Pr(S)		0	7	27		21		28
+52/Pr			0	2	23		22		24
+53/Pr			0	2	25		24		26
+54/Pr			0	2	31		25		27
+55/Pr			0	2	27		26		28
+56/Pr			0	2	33		26		28
+57/Pr			0	2	28		27		29
+58/Pr			0	2	35		28		30
+59/Pr			0	2	29		28		30
+101/SJF(R)(S)		12	4	31		16		20
+0/Pr			0	2	30		29		31
+53/Pr(R)(S)		0	7	36		30		37
+54/Pr			0	2	31		30		32
+55/Pr(R)		0	7	37		31		38
+56/Pr			0	2	33		32		34
+57/Pr(R)		0	7	38		32		39
+58/Pr			0	2	35		34		36
+59/Pr(R)		0	7	42		36		43
+60/Pr			0	2	38		37		39
+61/Pr			0	2	39		38		40
+62/Pr			0	2	40		39		41
+63/Pr			0	2	40		39		41
+64/Pr(R)		0	7	46		40		47
+55/Pr(R)(S)		0	4	45		42		46
+65/Pr			0	2	43		42		44
+66/Pr			0	2	44		43		45
+67/Pr			0	2	45		44		46
+68/Pr			0	2	46		45		47
+103/Pr(R)(S)		0	7	53		47		54
+69/Pr(R)		0	7	53		47		54
+70/Pr			0	2	54		53		55
+71/Pr			0	2	54		53		55
+72/Pr(R)		0	4	57		54		58
+73/Pr			0	2	55		54		56
+105/Pr(R)(S)		0	4	58		55		59
+74/Pr			0	2	56		55		57
+75/Pr			0	2	57		56		58
+76/Pr			0	2	58		57		59
+77/Pr			0	2	59		58		60
+78/Pr(R)		0	7	64		58		65
+79/Pr(R)		0	7	65		59		66
+80/Pr			0	2	60		59		61
+81/Pr			0	2	61		60		62
+82/Pr			0	2	62		61		63
+153/Pr(R)(S)		0	7	70		64		71
+83/Pr			0	2	65		64		66
+84/Pr			0	2	66		65		67
+85/Pr			0	2	67		66		68
+86/Pr			0	2	67		66		68
+155/Pr(R)(S)		0	4	70		67		71
+87/Pr(R)		0	4	71		68		72
+88/Pr			0	2	69		68		70
+89/Pr(R)		0	4	73		70		74
+90/Pr			0	2	72		71		73
+91/Pr			0	2	72		71		73
+92/Pr			0	2	73		72		74
+93/Pr(R)		0	7	79		73		80
+94/Pr			0	2	76		75		77
+95/Pr(R)		0	7	81		75		82
+96/Pr			0	1	75		75		76
+97/Pr			0	1	76		76		77
+98/Pr			0	1	77		77		78
+99/Pr			0	1	77		77		78
+100/Pr			0	1	78		78		79
+101/Pr(R)		0	7	84		78		85
+102/Pr			0	1	79		79		80
+103/Pr			0	1	80		80		81
+104/Pr			0	1	80		80		81
+105/Pr(R)		0	4	84		81		85
+106/Pr			0	1	81		81		82
+107/Pr(R)		0	4	89		86		90
+108/Pr			0	1	86		86		87
+109/Pr			0	1	86		86		87
+110/Pr(R)		0	4	89		86		90
+111/Pr			0	1	87		87		88
+112/Pr			0	1	87		87		88
+113/Pr			0	1	88		88		89
+114/Pr(R)		0	7	94		88		95
+203/Pr(R)(S)		0	7	95		89		96
+205/Pr(R)(S)		0	4	93		90		94
+115/Pr			0	1	90		90		91
+116/Pr			0	1	91		91		92
+117/Pr(R)		0	7	98		92		99
+118/Pr			0	1	94		94		95
+119/Pr			0	1	95		95		96
+120/Pr			0	1	95		95		96
+121/Pr(R)		0	7	103		97		104
+122/Pr			0	1	97		97		98
+123/Pr			0	1	97		97		98
+124/Pr			0	1	98		98		99
+125/Pr(R)		0	4	101		98		102
+126/Pr			0	1	99		99		100
+127/Pr			0	1	99		99		100
+128/Pr			0	1	100		100		101
+129/Pr			0	1	100		100		101
+130/Pr			0	1	101		101		102
+131/Pr(R)		0	4	104		101		105
+132/Pr(R)		0	4	105		102		106
+133/Pr			0	1	102		102		103
+134/Pr			0	1	103		103		104
+135/Pr(R)		0	7	110		104		111
+136/Pr			0	1	104		104		105
+255/Pr(R)(S)		0	4	108		105		109
+137/Pr(R)		0	7	111		105		112
+138/Pr			0	1	106		106		107
+253/Pr(R)(S)		0	7	114		108		115
+139/Pr(R)		0	4	112		109		113
+140/Pr			0	1	111		111		112
+141/Pr			0	1	112		112		113
+142/Pr(R)		0	7	119		113		120
+143/Pr			0	1	113		113		114
+144/Pr			0	1	114		114		115
+145/Pr			0	1	115		115		116
+146/Pr			0	1	115		115		116
+147/Pr			0	1	116		116		117
+149/Pr			0	1	117		117		118
+151/Pr			0	1	119		119		120
